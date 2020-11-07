@@ -1,0 +1,32 @@
+Brain Vision Data Exchange Header File Version 1.0
+; File created by AnyWave's BrainAnalyser Exporter
+
+[Common Infos]
+DataFile=MarRi0001_withoutEKG.dat
+MarkerFile=MarRi0001_withoutEKG.vmrk
+DataFormat=BINARY
+DataType=TIMEDOMAIN
+DataOrientation=MULTIPLEXED
+NumberOfChannels=16
+SamplingInterval=399.999989895
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=CzOz,,1,µV
+Ch2=T7Cz,,1,µV
+Ch3=Fp1Fp2,,1,µV
+Ch4=refCz,,1,µV
+Ch5=refT7,,1,µV
+Ch6=refOz,,1,µV
+Ch7=refFp1,,1,µV
+Ch8=sT7sCz,,1,µV
+Ch9=EEG_ICA 1,,1,
+Ch10=EEG_ICA 2,,1,
+Ch11=EEG_ICA 3,,1,
+Ch12=EEG_ICA 4,,1,
+Ch13=EEG_ICA 5,,1,
+Ch14=EEG_ICA 6,,1,
+Ch15=EEG_ICA 7,,1,
+Ch16=EEG_ICA 8,,1,

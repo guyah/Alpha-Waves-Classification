@@ -1,0 +1,22 @@
+Brain Vision Data Exchange Header File Version 1.0
+; File created by AnyWave's BrainAnalyser Exporter
+
+[Common Infos]
+DataFile=clinical.dat
+MarkerFile=clinical.vmrk
+DataFormat=BINARY
+DataType=TIMEDOMAIN
+DataOrientation=MULTIPLEXED
+NumberOfChannels=6
+SamplingInterval=3906.25
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=Fp1,,1,µV
+Ch2=Fp2,,1,µV
+Ch3=T3,,1,µV
+Ch4=Cz,,1,µV
+Ch5=O2,,1,µV
+Ch6=Cz-O2,,1,µV

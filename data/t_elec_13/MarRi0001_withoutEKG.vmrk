@@ -1,0 +1,6 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+[Common Infos]
+DataFile=MarRi0001_withoutEKG.dat
+
+[Marker Infos]
+Mk1=Comment,,1,1,0

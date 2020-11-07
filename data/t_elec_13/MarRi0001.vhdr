@@ -1,0 +1,77 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by the Vision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=MarRi0001.eeg
+MarkerFile=MarRi0001.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=8
+; Sampling interval in microseconds
+SamplingInterval=400
+
+[Binary Infos]
+BinaryFormat=INT_16
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=CzOz,,0.5,µV
+Ch2=T7Cz,,0.1,µV
+Ch3=Fp1Fp2,,0.1,µV
+Ch4=refCz,,0.1,µV
+Ch5=refT7,,0.1,µV
+Ch6=refOz,,0.1,µV
+Ch7=refFp1,,0.1,µV
+Ch8=sT7sCz,,0.1,µV
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.21.0004
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 8
+Sampling Rate [Hz]: 2500
+Sampling Interval [µS]: 400
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Series Res. [kOhm] Gradient         Offset
+1     CzOz        1                0.5 µV             10             1000              Off                0                 
+2     T7Cz        2                0.1 µV             10             1000              Off                0                 
+3     Fp1Fp2      3                0.1 µV             10             1000              Off                0                 
+4     refCz       4                0.1 µV             10             1000              Off                0                 
+5     refT7       5                0.1 µV             10             1000              Off                0                 
+6     refOz       6                0.1 µV             10             1000              Off                0                 
+7     refFp1      7                0.1 µV             10             1000              Off                0                 
+8     sT7sCz      8                0.1 µV             10             1000              Off                0                 
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+Data Electrodes Selected Impedance Measurement Range: 0 - 100 kOhm
+Impedance [kOhm] at 12:23:44 :
+CzOz+:    Out of Range!
+CzOz-:    Out of Range!
+T7Cz+:    Out of Range!
+T7Cz-:    Out of Range!
+Fp1Fp2+:     17
+Fp1Fp2-:  Out of Range!
+refCz+:   Out of Range!
+refCz-:   Out of Range!
+refT7+:   Out of Range!
+refT7-:   Out of Range!
+refOz+:   Out of Range!
+refOz-:   Out of Range!
+refFp1+:      0
+refFp1-:  Out of Range!
+sT7sCz+:  Out of Range!
+sT7sCz-:  Out of Range!

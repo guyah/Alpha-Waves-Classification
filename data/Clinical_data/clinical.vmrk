@@ -1,0 +1,16 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+[Common Infos]
+DataFile=clinical.dat
+
+[Marker Infos]
+Mk1=Comment,?,0,1,0
+Mk2=Comment,D�but,2,1,0
+Mk3=Comment,?,4935,1,0
+Mk4=Comment,?,7152,1,0
+Mk5=Comment,BOUGE,45255,1,0
+Mk6=Comment,YF,48448,1,0
+Mk7=Comment,YO,64184,1,0
+Mk8=Comment,PARLE,66104,1,0
+Mk9=Comment,MOCS,71024,1,0
+Mk10=Comment,RIT,79584,1,0
+Mk11=Comment,?,-2147483648,1,0
